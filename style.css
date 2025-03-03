@@ -25,6 +25,7 @@ body{
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
+    padding: 0 1rem 0 1.5rem;
 }
 
 .music-player{
@@ -113,11 +114,11 @@ a,i{
 }
 
 .box-p1{
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 .box-p2{
-    font-size: 1rem;
+    font-size: 0.8rem;
     opacity: 0.9;
 
 }
@@ -135,4 +136,71 @@ a,i{
 }
 .badge:hover{
     opacity: 1;
+}
+.sticky-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.sticky-nav-icons{
+    padding-top: 0.5rem; 
+}
+.sticky-nav-options{
+    padding-right: 2.5rem;
+  
+}
+.nav-item{
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2.3rem;
+    width: fit-content;
+    color: black;
+}
+#download{
+  padding-right: 0.5rem;
+}
+#app{
+    background-color: #000;
+    color: #fff;
+    margin: 0 1rem 0 1rem;
+}
+#user{
+    background-color: #000;
+}
+
+.card{
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    transition: 1s;
+}
+.card:hover{
+    box-shadow: 0.5rem 0.5rem 0.2rem black;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.card-img{
+    width: 100%;
+}
+
+.card-title{
+    font-weight:600 ;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.card-info{
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+h2{
+    margin-top: 1rem;
 }
